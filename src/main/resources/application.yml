@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: demo
+
+zookeeper:
+  enableZK: false
+  companyId: "dev-jdy"
+  defaultHost: 192.168.2.23:2181
+  rootLoginUrl: /role
